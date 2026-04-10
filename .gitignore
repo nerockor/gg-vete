@@ -1,0 +1,63 @@
+# ============================================================
+# Vet Challenge VR — .gitignore
+# Covers: Unity, Unreal Engine, macOS, IDEs
+# ============================================================
+
+# ----- Unity -----
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/Recordings/
+
+# Asset metadata (keep .meta files; they ARE needed by Unity)
+# Don't ignore *.meta
+
+# Crashlytics
+crashlytics-build.properties
+
+# Unity Hub installer (already downloaded, no need to version)
+*.dmg
+
+# ----- Unreal Engine -----
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.sln
+*.xcworkspace
+*.xcodeproj
+
+# ----- Android / SDK -----
+sdk-android/current-sdk
+*.apk
+*.aab
+*.keystore
+
+# ----- macOS -----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ----- IDEs -----
+.idea/
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ----- Docker -----
+docker-compose.override.yml
